@@ -1,0 +1,18 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: anamika
+ * Date: 20/5/15
+ * Time: 3:48 PM
+ * To change this template use File | Settings | File Templates.
+ */
+
+function form_example_form($form, &$form_state) {
+
+    $form['submit_button'] = array(
+        '#type' => 'submit',
+        '#value' => t('Click Here!'),
+    );
+
+    return $form;
+}
